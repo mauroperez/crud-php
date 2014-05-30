@@ -10,6 +10,7 @@ function validaCampo() {
 	}
 	else 
 		return true;
+}
 </script>
 </head>
 
