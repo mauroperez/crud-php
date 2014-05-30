@@ -17,7 +17,7 @@ return true;
 </head>
 
 <body>
-        <h1>Formulário de Cadastro</h1>
+        <h1>Formulário de Cadastro Teste</h1>
         <form id="cadform" name="cadform" method="get" action="adiciona-produtos.php" onsubmit="return validaCampo();">
                     
             Nome: <input type="text" name="nome" id="nome"/><br/>
