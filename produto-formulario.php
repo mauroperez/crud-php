@@ -5,7 +5,7 @@
 <script type="text/javascript">
 function validaCampo() {
 	if(document.cadform.nome.value=="" || document.cadform.preco.value=="") {
-		alert("O Campo nome é obrigatório!");
+		alert("Favor verificar os campos obrigatórios!");
 		return false;
 	}
 	else 
