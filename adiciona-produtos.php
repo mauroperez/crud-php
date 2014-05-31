@@ -1,13 +1,14 @@
 <?php 
 include 'cabecalho.php';
+include 'conecta.php';
 include 'funcaoBd.php';
 
-         
-        $nome = $_GET["nome"];
+		$nome = $_GET["nome"];
         $preco = $_GET["preco"];
-        $conexao = mysqli_connect('localhost','root','root','crud'); 
+        $descricao = $_GET["descricao"];
+        
               
-        if (insereProduto($nome,$preco,$conexao)) {?>
+        if (insereProduto($conexao,$nome,$preco,$descricao)) {?>
         		<p class = "text-success">
         			Produto <?=$nome;?>, com o valor de <?=$preco;?>, foram adicionado com sucesso!
         		</p>	
